@@ -1,0 +1,118 @@
+.controlPanel{
+    width: 430px;
+    height:calc(100vh - 66px); 
+    background-color:rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-left: 85px;
+    border:solid;
+    border-color: rgb(218, 218, 218);
+}
+.exampleData{
+    width: 200px;
+    background-color:#535a6c;
+    color: white;
+}
+
+.sourceData{
+    margin-top: 20px;
+    height: 64px;
+}
+
+.function{
+    height:calc(100vh - 279px); /* 170 */
+    margin-top: 30px;
+    border-top:solid;
+    border-bottom:solid;
+    border-color: rgb(218, 218, 218);
+    overflow:auto;
+}
+.compare{
+    margin-top: 5px;
+    overflow:auto;
+    border-color: rgb(218, 218, 218);
+}
+
+.uploadData{
+    width: 200px;
+}
+
+.functionName{
+    text-align: left !important;
+    width: 40px;
+}
+.finalAlpha{
+    display: flex;
+    margin-left: 70px;
+    font-size: 1.2em;
+}
+.headAlpha{
+    display: flex;
+    margin-left: 35px;
+    font-size: 1.2em;
+}
+.finalR{
+    display: flex;
+    margin-left: 48px;
+}
+.addAlpha{
+    height: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: 0.3;
+    
+}
+.selectedAddAlpha{
+    height: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.subAlpha{
+    height: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: 0.3;
+}
+.selectedSubAlpha{
+    height: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.finalBracket{
+    display: flex;
+    text-align: left !important;
+    margin-left: 50px;
+}
+.linePara{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.paraName{
+    width: 30px;
+}
+.aAlphaLine{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.functionGraph{
+    height: 250px;
+    border-bottom:solid;
+    border-color: rgb(218, 218, 218);
+}
+.functionTem{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.pmds{
+    text-align: left;
+    margin-left: 42px;
+    margin-top: 20px;
+}
